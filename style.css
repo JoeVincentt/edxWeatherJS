@@ -1,0 +1,16 @@
+#bg {
+  background-image: url("/9746723_orig.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#langico {
+  font-size: 4rem;
+  float: right;
+  margin-top: -40px;
+  margin-left: -20em;
+}

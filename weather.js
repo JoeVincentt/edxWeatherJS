@@ -18,6 +18,7 @@ class Weather {
     if (notFound !== 200) {
       alert("City is not found!");
       localStorage.clear();
+      wildow.location.reload();
     }
 
     const responseData = await response.json();

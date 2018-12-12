@@ -29,4 +29,9 @@ class Storage {
     localStorage.setItem("city", city);
     localStorage.setItem("country", country);
   }
+
+  clearLocation() {
+    localStorage.clear();
+    window.location.reload();
+  }
 }

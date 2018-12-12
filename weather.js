@@ -17,6 +17,7 @@ class Weather {
     const notFound = response.status;
     if (notFound !== 200) {
       alert("City is not found!");
+      localStorage.clear();
     }
 
     const responseData = await response.json();
